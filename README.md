@@ -25,18 +25,20 @@ This project explores **augmented methods**—such as the Augmented Lagrangian f
 - **Logistic Regression Experiments:** `gisette`, `rcv1`, `realsim`  
 
 ## Results
-
-- **ALM-SVM**
-  - Achieved **97.5% accuracy** on `rho02`  
-  - Achieved **88% accuracy** on `rho08`  
-
+- **SVM**
+  - **ALM:**
+    - Achieved **97.5% accuracy** on `rho02`  
+    - Achieved **88% accuracy** on `rho08`  
+  
 - **Logistic Regression**
   - **AGD:**
     - Achieved **93.10% accuracy** on `gisette`
     - Achieved **95.55% accuracy** on `rcv1`
     - Achieved **83.64% accuracy** on `realsim`
-  - **L-BFGS:** faster convergence, up to **97.8% accuracy** on `gisette`  
-
+  - **L-BFGS:**
+    - Achieved **97.8% accuracy** on `gisette`  
+    - Achieved **95.55% accuracy** on `rcv1`
+    - Achieved **83.64% accuracy** on `realsim`
 ## Usage
 
 Clone the repo and run experiments:
